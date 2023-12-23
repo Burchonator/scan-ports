@@ -1,6 +1,6 @@
 ## Port Scanner Script
 
-Creating a port scanner script which efficiently scans ports on a target IP.
+Creating a port scanner script which efficiently scans ports on a target IP. Requires NMAP.
 
 Created this script for TCP. 
 
