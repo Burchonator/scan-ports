@@ -14,7 +14,7 @@ echo
 echo "Running full scan on discovered TCP ports $ports... "
 echo
 echo
-nmap -T4 -p$ports "$1" -oN "$2"
+nmap -T4 -A -p$ports "$1" -oN "$2"
 echo
 echo
 echo "Scans complete. Results saved to: $2"
